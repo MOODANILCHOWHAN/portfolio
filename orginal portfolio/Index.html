@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portpoio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bf194f65ea.js" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    </script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo3.jpg" class="logo" id="image">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Java Developer</p>
+                <h1>Hi, I'm <span>Mood Anil Chowhan</span> </h1>
+            </div>
+        </div>
+    </div>
+    <br></br>
+    <!--about -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="IMG_3027.JPG" id="image2"></div>
+                <div class="about-col-2"><h1 class="sub-title">About me</h1>
+                <p>My self, I'm Mood Anil Chowhan from zaheerabad sangareddy Dist telanana
+                    502221. 
+
+                </p>
+                   <div class="tab-titles">
+                      <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                      <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+                      <p class="tab-links" onclick="opentab('Education')">Education</p>
+                      <p class="tab-links" onclick="opentab('Certification')">Certification</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="experience">
+                    <ul>
+                        <li><span>Angular Developer in Jobminar Consulting pvt ltd (12/2023)- Present</span><br>
+                            <br> Developing Responsive user interface for mobile and web applications using
+                            Angular framework and Angular Capacitor libraries.
+                            Integration with Rest Api, implementing payment gateway, and Google Maps .
+                            UserAuthentication using Firebase and Oauth for security and integrating third
+                            party api’s.
+                            Building Android and Ios apps and deploying on Google play store.
+                            Maintaining the previous app’s updates.</li><br>
+                        <li><span>Java Full Stack Developer at Jobminar Consulting pvt ltd (10/2023- 01/2024)</span>
+                            <br><br> During this internship learned about Angular Framework and Angular Libraries
+                            Working with senior developers on internal projects.
+                            WorkedonResponsive design as per figma </li><br>
+                        <li><span>Java full Stack Developer at Primepro Learning (06/2023- 09/2023)</span>
+                            <br><br> Learning and working closely with developers.
+                            Completing day to day task to gain more practical experience.
+                            Developed myPersonal Portfolio.</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="Skills">
+                    <ul>
+                        <li><span>Java</span><br>OOPs, Hibernet, Jdbc, Jsp, Servlets,SpringBoot </li>
+                        <br><li><span>Web Development</span><br>Html, Css,Javascript, Bootstrap, Angular, Material Ui, Angular Ionic/Capacitor </li>
+                        <br><li><span>Data Base</span><br>Oracle Sql,MySql </li>
+                    </ul>
+                   </div>
+                   <!-- Education-->
+                   <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>B.tech</span><br>Malla Reddy College of engineering, Hyderabad Telanga. 2022,  CGPA:6.5</li>
+                       <br> <li><span>Diploma</span><br>Ellenki College of engineering and Technology, Hyderabad Telanga, 2019  Percentage: 63%.</li>
+                       <br><li><span>SSC</span><br>A.C.M High School, Hyderabad Telanga, 2016  CGPA : 8.2</li>
+                    </ul>
+                   </div>
+
+                   <!--    Certification-->
+                   <div class="tab-contents" id="Certification">
+                    <ul>
+                        <li><span>Java Full Stack Developer</span><br>Jspiders, Hyderabad Telanga,(sep-2002 to june-2923)</li>
+                        
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br></br>
+    <!-- --------Servises  ------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <center><i class="fa-solid fa-mobile" ></i></center>
+                    <h2 >Designing a web sites and Mobile apps</h2>
+                    <br></br>
+                    <p><h3>Html, Css, Javascript, Angular, Capacitor, Bootstrap, Material UI</h3> <br>
+                        Designing responsive User Interface for both Mobile and website. Creating 
+                        angular reuseable directives, Integrating Rest api's and providing OAuth authentication
+                        
+                        Building the andriod and Ios apps using angular libraries like CAPACITOR by using 
+                        Andriod Studio IDE. 
+                    </p>
+                </div>
+
+                <div>
+                    <center><i class="fa-sharp fa-solid fa-code"></i></center>
+                    <h2 >BackEnd Development</h2>
+                    <br></br>
+                    <p> <h3>Java, SpringBoot</h3><br>
+                        Building and maintain website using java. I ensure the website performs 
+                        correctly,focusing on database, backend logics, application programming
+                         interface(APIs),architecture and servers.
+                    </p>
+                </div>
+
+                <div>
+                    <center><i class="fa-solid fa-database" ></i></center>
+                    <h2 >Data-Base Development</h2>
+                    <br></br>
+                    <p> <h3>Oracle Sql and MySql</h3>
+                        <br>
+                        Developing SQL databases and writing applications to interface with Oracle SQL databases.
+                          Development often consists of designing tables, storing procedures, 
+                          views and functions.
+                    </p>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+<!--  -----------services end --------------- -->
+
+<!--  -----------project start --------------- -->
+
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+         <div class="work-list">
+            <div class="work">
+                <img src="bingein.jpeg" class="image22">
+                <div class="layer">
+                    <h3> Binge-In</h3>
+                    <p>This is an website to book the private theatre and event celebration. In this website i have 
+                        provided user to check the date avalability and booking information. Also added Whatsapp feature to booking
+                        and resolve user queries. Admin can manage the booking and check the booking details.
+                    </p>
+                    click here to visit website.
+                    <a href="https://thebingein.com/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="kissanMart.jpeg" class="image22">
+                <div class="layer">
+                    <h3> kissanMart</h3>
+                    <p>
+                        Providing online shopping experience for users and enhancing the business
+                        growth and developed user friendly app.
+                        provide in App notifications and allow Admin to change the products and price dynamically.
+                        Itallows users to browse the product, add to cart and secure payment.
+                    </p>
+                    click here for downloading app.
+                    <a href="https://drive.google.com/file/d/1d-i-8jHqZ34wVjs-Vxx96bwinsgnWDq0/view?usp=drive_link"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="gameproject.png" class="image22">
+                <div class="layer">
+                    <h3> 2D game</h3>
+                    <p>2d game is Core java learning project which was done during my training 
+                        period in Jspiders as full stack java developer. In this project 
+                        i had utalized java oopa concepts and web technologies for design.
+                        Greenfoot is the free platfrom where i had implemented the project by using 
+                        Greenfoot inbuild methods.
+                    </p>
+                    click here for more information.
+                    <a href="https://github.com/MOODANILCHOWHAN/PROJECT.git"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+         </div>
+         <a href="#" class="btn">see more</a>
+    </div>
+</div>
+
+<!-- ---------------project end --------------- -->
+
+<!-- ---------------contact start --------------- -->
+
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">
+                    contact me
+                </h1>
+                <p><i class="fa-solid fa-envelope"></i>anilchowhan1111@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7989884524</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/anil-chowhan-911aa3234"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/MOODANILCHOWHAN.git"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/_ani_l_chaw_ha_n/?igshid=NzZlODBkYWE4Ng=="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1FzIMBZa8UL9u-v-aBBTWsAxwoRUkjkBt/view?usp=sharing" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form  onsubmit="emailSend()";reset() return false;>
+                    <input type="text" name="Name" placeholder="your name" id="name">
+                    <input type="email" name="Email" placeholder="your email" id="email">
+                    <input type="number" name="number" placeholder="Your mobile number" id="phonenumber">
+                    <textarea name="message" rows="6" placeholder="your message" id="message"></textarea>
+                    <button type="submit"  class="btn btn2">submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>
+  
+<!-- ---------------contact end --------------- -->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+
+        // skills and education start
+        var tablinks=document.getElementsByClassName('tab-links');
+        var tabcontents=document.getElementsByClassName('tab-contents');
+        
+        function opentab(tabname)
+        {
+            for (tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+        // skills and education
+        //contact me -----s
+     
+            // console.log(messageBody)           
+        function emailSend(){ 
+            var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var phoneNumber = document.getElementById('phonenumber').value;
+        var message = document.getElementById('message').value;
+
+        // window.alert("name"+name)  
+            Email.send({
+                 Host : 'smtp.elasticemail.com',
+                 Username : 'moodanil242@gmail.com',
+                 Password : "87AD11DA62ED6E6FED05D1D8DFBCCA24CE19",
+                
+                
+                To : "moodanil242@gmail.com",
+                 From :email ,
+                Subject : "visitor",
+                Body : "name = "+name+"<br> phonenumber = "+ phoneNumber
+                        +"<br> email = "+email+"<br> message = "+message,
+                        
+             }).then(
+             message => alert("sucessful")
+             );
+            // window.alert(name)
+        }
+        //contact me-----e
+        
+    </script>
+</body>
+</html>
